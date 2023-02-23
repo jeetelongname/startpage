@@ -1,0 +1,13 @@
+#+title: A simple start page
+
+This is a simple webscript that acts as a start page. it makes use of ruby
+and sinatra to dynamically render things, idk. Ill add more features as I see
+fit.
+
+this is based on the concept of a web script, or basically a one file web app
+that does not need all of the hulabaloo of a full project.
+
+* Running
+- Install ruby
+- ~ruby index.rb -p PORT~ where ~PORT~ is the port number
+- use a systemd service to start it on login or something.
