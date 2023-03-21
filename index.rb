@@ -12,9 +12,7 @@ end
 
 # Fuck you and your american spelling
 class String
-  def capitalise
-    capitalize
-  end
+  alias capitalise capitalize
 end
 
 require 'sinatra'
